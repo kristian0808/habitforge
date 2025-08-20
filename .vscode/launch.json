@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug NestJS",
+        "type": "node",
+        "request": "launch",
+        "program": "${workspaceFolder}/src/main.ts",
+        "args": [],
+        "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
+        "sourceMaps": true,
+        "envFile": "${workspaceFolder}/.env",
+        "cwd": "${workspaceFolder}",
+        "console": "integratedTerminal",
+        "restart": true
+      }
+    ]
+  }
